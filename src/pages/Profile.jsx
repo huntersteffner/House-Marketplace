@@ -98,7 +98,7 @@ const Profile = () => {
     }
   }
 
-  const onEdit = (listingId) => navigate(`/edit/edit-listing/${listingId}`)
+  const onEdit = (listingId) => navigate(`/edit-listing/${listingId}`)
 
   return (
     <div className="profile">
